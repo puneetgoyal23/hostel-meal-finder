@@ -76,3 +76,26 @@ button:hover {
 .meal-card button {
   margin-top: 10px;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .search-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  #mealContainer {
+    grid-template-columns: 1fr;
+  }
+}
